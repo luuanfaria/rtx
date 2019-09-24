@@ -1,0 +1,91 @@
+.contato {
+    background-color: #181818;
+}
+.contato-inside {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.contato-info {
+    padding-top: 30px;
+    color: #FFF;
+}
+.contato-info p {
+    font-size: 13px;
+}
+.wpps-a {
+    display: flex;
+}
+.wpps-a p {
+    margin: 5px;
+}
+.wpps-a img {
+    width: 30px;
+}
+.contato-info .contato-titulo {
+    font-weight: bold;
+    font-size: 16px;
+}
+.sobre-logo img {
+    margin-bottom: 15px;
+}
+.sobre-tel,
+.sobre-email,
+.local-info {
+    display: flex;
+}
+.sobre-tel img {
+    margin-top: 3px;
+    padding-right: 5px;
+    width: 16px;
+    height: 12px;
+}
+.sobre-email img {
+    margin-top: 3px;
+    padding-right: 5px;
+    width: 16px;
+    height: 12px;
+}
+.local-info img {
+    margin-top: 15px;
+    padding-right: 5px;
+    width: 16px;
+    height: 12px;
+}
+.contato-info a {
+    text-decoration: none;
+    color: #EAEAEA;
+}
+.detag {
+    margin-top: 40px;
+    border-top: 1px solid #EAEAEA;
+    display: flex;
+    justify-content: space-between;
+}
+.detag .copyp {
+    text-align: flex-end;
+}
+
+
+  @media only screen and (max-width: 768px) {
+      .contato {
+          text-align: center;
+      }
+      .sobre-tel {
+          justify-content: center;
+      }
+      .sobre-email {
+          justify-content: center;
+      }
+      .local {
+          display: none;
+      }
+      .area_formulario {
+          padding-top: 30px;
+      }
+      .sobre-logo img {
+          margin-bottom: 15px;
+      }
+      .wpps-a {
+          justify-content: center;
+      }
+  }

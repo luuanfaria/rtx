@@ -1,0 +1,130 @@
+.texto {
+    display: flex;
+    align-content: center;
+    background-color: #181818;
+    height: 60px;
+}
+.texto1 {
+    justify-content: center;
+    margin: 10px;
+}
+.texto p {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+}
+.promo {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.promo h3 {
+    margin: auto;
+    font-size: 28px;
+    text-align: center;
+    font-family: Montserrat;
+}
+.promo-carrosel1 {
+    justify-content: center;
+}
+.produto a {
+    text-decoration: none;
+    color: #181818;
+}
+.produto {
+    width: 240px !important;
+    margin-top: 30px;
+    margin: 40px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.14)
+}
+.produto-desc {
+    min-height: 80px;
+}
+.produto-foto {
+    text-align: center;
+}
+.produto img {
+    width: 220px;
+    height: auto;
+    max-height: 300px;
+    padding: 10px;
+}
+.produto p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+}
+.produto span {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+}
+.chamada-inside {
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: #181818;
+    border-radius: 2px;
+    font-family: Roboto, sans-serif;
+}
+.chamada-inside p {
+    color: #FFF;    
+    cursor: pointer;
+}
+.chamada-inside h5 {    
+    cursor: pointer;
+    margin-top: 32px;
+    font-weight: bold;
+    color: #FFF;
+}
+.chamada-inside a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+}
+.botao-chamada a {    
+    cursor: pointer;
+    text-decoration: none;
+    color: #FF9800;
+    font-weight: bold;
+}
+.carousel-control-prev-icon {
+    background-image: url(./right.png) !important;
+}
+.carousel-control-next-icon {
+    background-image: url(./left.png) !important;
+}
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .texto {
+        height: auto;
+    }
+    .texto p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 20px;  
+    }
+}
+@media only screen and (max-width: 768px) {
+    .chamada {
+        display: none;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .texto {
+        display: none;
+    }
+    .chamada-inside h5 {
+        font-size: 16px
+    }
+    .chamada-inside p {
+        font-size: 13px;
+    }
+    .chamada {
+        display: none;
+    }
+}

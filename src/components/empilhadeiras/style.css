@@ -1,0 +1,90 @@
+.bannerbg {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: #181818;
+}
+.banneremp {
+    justify-content: center !important;
+    text-align: center;
+    background-color: #181818;
+    width: 1200px;
+    height: 400px;
+}
+.emp-inside {
+    justify-content: center;
+    text-align: center;
+}
+.empilhadeiras-inside {
+    padding: 30px;
+    background-color: #EAEAEA;
+    border-radius: 2px;
+    justify-content: center;
+}
+.empilhadeiras-inside .titulo {
+    padding-top: 20px;
+    font-family: Montserrat;
+    opacity: 0.9;
+}
+.empilhadeiras-inside .descricao {
+    padding: 30px;
+    text-align: center;
+    opacity: 0.9;
+}
+.emp-alinhamento {
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+.emp-categorias {
+    display: flex;
+    justify-content: baseline;
+    text-align: center;
+}
+.categoria {
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+}
+.categoria p {
+    margin-top: 180px;
+    color: #EAEAEA;
+}
+.categoria p:hover {
+    color: #FF9800;
+}
+
+.emp-botao {
+    margin-left: 320px;
+    margin-right: 320px;
+    background-color: #181818;
+    border-radius: 2px; 
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.14);
+}
+.emp-botao a {
+    text-decoration: none;
+    color: #EAEAEA;
+    transition: 0.3s;
+}
+.emp-botao a:hover {
+    color: #FF9800;
+}
+.emp-botao p {
+    padding: 10px;
+    color: #FF9800;   
+    font-weight: bold;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    .banneremp {
+        display: none;
+    }
+    .empilhadeiras-inside {
+        padding: 0;
+        width: 100%;
+    }
+    .emp-botao {
+        display: none;
+    }
+}

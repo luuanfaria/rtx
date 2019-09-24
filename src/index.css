@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --size-mobileS: 320px;
+  --size-mobileM: 375px;
+  --size-mobileL: 425px;
+  --size-tablet: 768px;
+  --size-laptop: 1024px;
+  --size-laptopL: 1440px;
+  --size-desktop: 2560px;
+}
+

@@ -1,0 +1,70 @@
+.sobre {
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.sobre-titulo h5 {
+    font-weight: bold;
+    font-family: Montserrat;
+}
+.sobre-desc {
+    margin-top: 20px;
+}
+.sobre-foto {
+    border: 2px solid #181818;
+    width: 100%;
+}
+.sobre-foto img {
+    width: 100%;
+    padding: 5px;
+}
+.sobre-serv {
+    margin: 40px;
+}
+.sobre-serv h5 {
+    margin-top: 90px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.serv-coluna {
+    text-align: center; 
+    justify-content: center;
+    align-items: start;
+    margin-top: 30px;
+}
+.servico-sobre {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #EAEAEA;
+    border-radius: 2px;
+    justify-content: center;
+    margin-bottom: 30px;
+    border: 1px solid #EAEAEA;
+}
+.servico-titulo-sobre h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.servico-desc-sobre {
+    font-size: 14px;
+    text-align: center;
+    padding-right:  10px;
+    padding-left: 10px;
+}
+.servico-desc-sobre p {
+    margin-top: 20px;
+    font-size: 13px;
+}
+.service-coluna {
+    margin-top: 30px;
+}
+.servico-sobre:hover {
+    border: 1px solid #181818;
+    transition: 1s;
+}
+.serv-sobre a {
+    text-decoration: none;
+    color: #181818;
+}

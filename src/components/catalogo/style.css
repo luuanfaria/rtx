@@ -1,0 +1,34 @@
+.nosso-catalogo {
+    background-color: #EAEAEA;
+    padding-bottom: 90px;
+}
+.titulo-pdf {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.desc-pdf {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+.arquivo-pdf {
+    width: 100%;
+    height: 600px;
+}
+.menu-inside h6 {
+    text-align: left;
+    border-bottom: 1px solid #181818;
+}
+.menu-inside li {
+    cursor: pointer;
+    transition: 0.3s;
+    list-style-type: none;
+    text-align: left;
+}
+.menu-inside li:hover {
+    color: #FF9800;
+    cursor: pointer;
+}

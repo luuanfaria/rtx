@@ -1,0 +1,79 @@
+.servicos {
+    margin-bottom: 90px;
+}
+.banner {
+    background-color: #181818;
+    text-align: center;
+}
+.banner img {
+    width: auto;
+}
+.sec1 {
+    background-color: #EAEAEA;
+}
+.sec-servico {
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.sec2-border {
+    margin-top: 50px;
+    border: 2px solid #181818;
+}
+.sec2 .sec-servico {
+    margin-top: 40px;
+    padding: 0px;
+}
+.titulo h5 {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.desc p {
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+.desc-check {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.check-inside {
+    display: flex;
+    padding: 15px;
+}
+.check-inside img {
+    width: 20px;
+    height: 20px;
+}
+.check-inside p {
+    padding-left: 15px;
+}
+.desc-check2 {
+    padding-top: 110px;
+}
+.manutencao {
+    width: 100%;
+    text-align: end;
+}
+.manutencao img {
+    width: 350px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner img {
+        width: 768px;
+    }
+    .manutencao {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .banner img {
+        width: 425px;
+    }
+}

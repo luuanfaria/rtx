@@ -1,0 +1,24 @@
+.carousel img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: flex;
+    width: 100%;
+    height: 600px;
+}
+.thumbs-wrapper {
+    display: none;
+}
+.bannercarrosel span {
+    color: black !important;
+}
+.carousel h3 {
+    position: absolute;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel img {
+        height: 220px;
+    }
+}

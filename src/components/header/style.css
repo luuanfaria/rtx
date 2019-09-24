@@ -1,0 +1,143 @@
+.headertopo {
+    height:30px;
+    background-color: #181818;
+    display: flex;
+}
+.headertexto {
+    justify-content: flex-end;
+}
+.headertexto a {
+    text-decoration: none;
+    color: #FFF;
+}
+.headertexto a:hover {
+    color: #FF9800;
+}
+.headertopo p {
+    color: #FFF;
+    font-size: 13px;
+    line-height: 30px;
+    font-family: Montserrat;
+}
+.headermenu {
+    height: auto;
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.14);
+}
+.headermenu .Menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+}
+.headermenu img {
+    width: 130px;
+}
+nav ul,
+nav li {
+    justify-content: flex-end;
+    font-size: 13px;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: #181818;
+}
+nav a {
+    list-style:none;
+    color: #181818;
+    padding: 15px;
+    transition: 0.3s;
+}
+nav .active a,
+nav a:hover {
+  background-color: #181818;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* MENU MOBILE */
+.menu-mobile {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+.menu-mobile2 {
+    margin: 0 30px 0 0;
+}
+.menu-mobile2 a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;
+}
+#toggle {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .menu-mobile {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .headertopo {
+        display: none;
+    }
+    .headermenu img {
+        width: 80px;
+    }
+    .menu-normal ul {
+      display: none;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+        width: 26px;
+        float: right;
+    }
+    .menu-mobile2 {
+        text-align: center;
+        width: 100%;
+        display: none;
+        position: fixed;
+        background: #FFF;
+        left: 0;
+        top: 90px;
+        z-index: 1000;
+    }
+    .menu-mobile2 a {
+        clear: right;
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+
+    }
+    #toggle:checked + .menu-mobile2 {
+        display: block;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+      .headertopo {
+          display: none;
+      }
+      .headermenu {
+          height: auto;
+      }
+      .menu-mobile2 {
+          top: 70px;
+      }
+  }
