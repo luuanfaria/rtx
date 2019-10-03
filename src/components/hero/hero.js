@@ -21,7 +21,7 @@ export default function Hero() {
           <img src={Foto3} alt="Imagem do banner" />
       </div>
       <div>
-          <img src={Foto1} alt="Imagem do banner" />
+          <img src={Banner} alt="Imagem do banner" />
       </div>
     </Carousel>
   );

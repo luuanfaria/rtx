@@ -19,7 +19,7 @@ export default function Service() {
           </Row>
         </Container>
       </div>
-      <div className="promo">
+      {/* <div className="promo">
         <Container>
           <Row>
             <Col lg={12}>
@@ -181,7 +181,7 @@ export default function Service() {
             </Container>
           </Carousel.Item>
         </Carousel>
-      </div>
+      </div> */}
       <div className="chamada">
         <Container>
           <Row className="chamada-inside text-center">
