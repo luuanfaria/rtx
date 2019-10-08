@@ -1,11 +1,12 @@
 import React from "react";
 import "./style.css";
 import { Container, Row, Col } from "react-bootstrap";
-import Logo from "../header/logo3.png";
+import Logo from "../header/logo4.png";
 import Wpp from "./whatsapp.jpg";
 import Tel from "./telefone.png";
 import Email from "./email.png";
 import Place from "./place.png";
+import Logo2 from "../assets/img/Logo DTX.png";
 
 export default function Contato() {
   return (
@@ -17,6 +18,9 @@ export default function Contato() {
               <div className="contato-sobre">
                 <div className="sobre-logo">
                   <img src={Logo} alt="Logo da empresa RTX"/>
+                </div>
+                <div className="sobre-logo">
+                  <img src={Logo2} alt="Logo da empresa DTX" />
                 </div>
               </div>
             </Col>
