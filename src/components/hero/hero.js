@@ -36,8 +36,6 @@ export default function Hero() {
       <div class="bg bg2">
           <img src="#" alt="Imagem do banner" />
       </div>
-      <div class="bg bg3">
-      </div>
       <div class="bg bg4 text-center">
         <h3>Trabalhamos com as melhores marcas do mercado</h3>
       </div>
