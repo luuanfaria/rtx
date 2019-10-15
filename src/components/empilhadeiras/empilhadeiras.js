@@ -5,6 +5,7 @@ import Foto from "./banneremp.jpg";
 import Combustao from "./combustao2.jpg";
 import Eletrica from "./eletrica2.jpg";
 import Manual from "./manual2.jpg";
+import Novas from "./Eletric.jpg";
 
 export default function EmpInside() {
   return (
@@ -24,6 +25,7 @@ export default function EmpInside() {
       <Container>
         <Row className="emp-inside">
           <Col className="emp-alinhamento d-flex" lg={12}>
+            <Col lg={6} md={12} sm={12}>
             <div className="empilhadeiras-inside">
               <div className="titulo">
                 <h5>Novas</h5>
@@ -45,6 +47,10 @@ export default function EmpInside() {
                 </p>
               </div>
             </div>
+            </Col>
+            <Col className="emp-img" lg={6} md={12} sm={12}>
+              <img src={Novas} />
+            </Col>
           </Col>
           <Col className="emp-categorias">
             <div
