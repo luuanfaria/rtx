@@ -11,6 +11,7 @@ import Produto6 from "../assets/img/Produto 6.png";
 import Produto7 from "../assets/img/Produto 7.png";
 import Produto8 from "../assets/img/Produto 8.png";
 import Letreiro from "../assets/img/Letreiro.png";
+import Fundo from "../assets/img/Fundo.jpg";
 
 export default function Hero() {
   return (
@@ -34,7 +35,7 @@ export default function Hero() {
         <p>PROMOÇÃO VÁLIDA PARA O MÊS VIGENTE OU ENQUANTO DURAREM OS ESTOQUES.</p>         
       </div>
       <div class="bg bg2">
-          <img src="#" alt="Imagem do banner" />
+          <img src={Fundo} alt="Imagem do banner" />
       </div>
       <div class="bg bg4 text-center">
         <h3>Trabalhamos com as melhores marcas do mercado</h3>

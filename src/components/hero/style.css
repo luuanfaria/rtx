@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
 
 .bg1 {
-    background-image: url(../assets/img/Fundo.jpg);
+    background-image: url(../assets/img/Fundo-Logos.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
 }
 .bg4 {
-    background-image: url(../assets/img/bannerex.jpg);
+    background-image: url(../assets/img/bannerex2.jpg);
 }
 .carousel .bg {
     max-width: 1920px;
     height: 600px;
     background-size:100% 100%;
--webkit-background-size: 100% 100%;
--o-background-size: 100% 100%;
--khtml-background-size: 100% 100%;
--moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -khtml-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
 }
 .thumbs-wrapper {
     display: none;
@@ -26,8 +26,8 @@
 }
 .bg h3 {
     padding-top: 100px;
-    font-family: 'NEON','Bungee Shade', cursive;
-    color: #181818;
+    font-family: "Open Sans", Roboto;
+    color: white;
 }
 .bg1 p {
     color: white;

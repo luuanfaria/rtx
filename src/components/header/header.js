@@ -21,7 +21,7 @@ export default function Header() {
         <Container>
           <Row>
             <Col lg={4} md={4} sm={1} xs={2} className="Logo">
-              <img src={Logo} alt="Logo da Empresa RTX"/>
+              <a href="/"><img src={Logo} alt="Logo da Empresa RTX"/></a>
             </Col>
             <Col lg={8} md={8} sm={11} xs={10} className="Menu">
               <nav className="menu-normal">
